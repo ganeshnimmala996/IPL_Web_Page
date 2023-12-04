@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IPL Project</title>
+    <link rel="stylesheet" href="index.css" />
+    <script
+      src="https://kit.fontawesome.com/6f5013579e.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- Header Section start -->
+   
+    <header>
+      <div id="head-container">
+        <div id="head-right">
+          
+          <img src="img/ipl-logo.png" alt="logo" id="logo" />
+          <a href="index.html">
+
+            <img src="https://cdn-icons-png.flaticon.com/512/25/25694.png" id="home-button" style="background-color: aliceblue;" class="add-button">
+
+          </a>
+        </div>
+        <div id="head-left">
+          <div class="search-input">
+            <a href="" target="_blank" hidden></a>
+            <input type="text" placeholder="Enter team code ex:- DC" />
+            <div class="autocom-box"></div>
+            <div class="icon"><i class="fas fa-search"></i></div>
+          </div>
+        </div>
+        <div id="head-left">
+          <button id="add-team-button"  style="  background-color: rgb(0, 53, 128);" class="add-button" onclick="addteamclicked()">Add Team</button>
+          <button id="add-player-button"  style="  background-color: rgb(0, 53, 128);" class="add-button" onclick="addPlayerClicked()">Add Player</button>
+         
+        </div>
+       
+      </div>
+    </header>
+
+    <div class="slider">
+      <div class="slides">
+        <input type="radio" name="radio-btn" id="radio1" />
+        <input type="radio" name="radio-btn" id="radio2" />
+        <input type="radio" name="radio-btn" id="radio3" />
+        <input type="radio" name="radio-btn" id="radio4" />
+
+        <div class="slide">
+          <img src="img/slide1.jpg" alt="" />
+        </div>
+        <div class="slide first">
+          <img src="img/slide2.jpeg" alt="" />
+        </div>
+        <div class="slide">
+          <img src="img/slide3.png" alt="" />
+        </div>
+        <div class="slide">
+          <img src="img/slide4.jpg" alt="" />
+        </div>
+      </div>
+
+      <div class="navigation-manual">
+        <label for="radio1" class="manual-btn"></label>
+        <label for="radio2" class="manual-btn"></label>
+        <label for="radio3" class="manual-btn"></label>
+        <label for="radio4" class="manual-btn"></label>
+      </div>
+    </div>
+
+    <h1 id="slogan"><b> Welcome To The Indian Premier League 2024</b></h1>
+
+
+<div style="padding: 0%;">
+    <div>
+      <h2 style="text-align:center; margin-top: 25px;">IPL 2024 Team List</h2>
+      <p style="text-align:center;margin-top: 8px;">A total of 10 teams will participate in this IPL match. Here is the IPL 2024 Team List that will participate in the IPL match in 2024.</p>
+      </div>
+    
+    
+    
+    
+    
+    
+      <div class="checkboxes">
+        <div class="design">
+          
+          <img  class="design_button" src="img/Mumbai Indians logo.png"/>
+          
+           <ul class="list" >
+            <li>Mummbai Indians </li>
+            <li>Owner - INDIAWIN SPORTS PVT.LTD</li>
+            <li>Coach - Mark Boucher</li>
+           </ul>
+          <img class="design_button"  id="img-design-button"  src="img/Rohit Sharma.png"/>  
+          <p>Captain:<b> Rohit Sharma </b> </p>
+          <a style="text-decoration: none; "  href="https://www.mumbaiindians.com/"><p>Official website </p></a> 
+          
+       
+        </div>
+
+        <div class="design">
+          
+          <img  class="design_button"   src="img/Kolkata Knight Riders logo.png"/>
+          
+           <ul class="list" >
+            <li id="sublist">Kolkata Knights Riders </li>
+            <li id="sublist">Owner - Knight Riders Sports Private Ltd</li>
+            <li id="sublist">Coach - Chandrakant Pandit</li>
+           </ul>
+          <img class="design_button" src="img/Nitish Rana.png"/>  
+          <p>Captain:<b> Shreyas Iyer </b> </p>
+          <a style="text-decoration: none;"href="https://kkr.in/"><p>Official website </p></a>
+       
+        </div>
+
+
+        <div class="design">
+          
+          <img  class="design_button"   src="img/csklogo.png"/>
+          
+           <ul class="list" >
+            <li id="sublist1" >Chennai Super Kings (CSK) </li>
+            <li id="sublist1">Owner - Chennai Super Kings Cricket Ltd.</li>
+            <li id="sublist1">Coach - Stephen Fleming</li>
+           </ul>
+          <img class="design_button" style="margin-left: 70px;"  src="img/Mahendra Singh dhoni.png"/>  
+          <p>Captain:<b> Mahendra Singh dhoni  </b> </p>
+
+          <a style="text-decoration: none;" href="https://www.chennaisuperkings.com/"><p>Official website </p></a>
+        </div>
+
+
+        <div class="design">
+          
+          <img  class="design_button"  src="img/Punjab Kings logo.png"/>
+          
+           <ul class="list" >
+            <li>Punjab Kings </li>
+            <li>Owner - KPH Dream Cricket Private Limited</li>
+            <li>Coach - Trevor Bayliss</li>
+           </ul>
+          <img class="design_button"  style="margin-left: 10px; " src="img/Shikhar Dhawan.png"/>  
+          <p>Captain:<b> Shikhar Dhawan </b> </p>
+          <a style="text-decoration: none;"href="https://www.punjabkingsipl.in/"><p>Official website </p></a>
+          
+        </div>
+        
+
+
+        <div class="design">
+          
+          <img  class="design_button"    src="img/Delhi Capitals logo.png"/>
+          
+           <ul class="list" >
+            <li>Delhi Capitals </li>
+            <li>Owner -GMR Sports Pvt. Ltd & JSW Sports Pvt Ltd </li>
+            <li>Coach - Ricky Ponting</li>
+           </ul>
+          <img class="design_button" style="margin-right: 30px;" src="img/David Warner.png"/>  
+          <p>Captain:<b> David Warner </b> </p>
+          <a style="text-decoration:none" href="https://www.delhicapitals.in/"><p>Official website </p></a>
+          
+        </div>
+
+
+        <div class="design">
+          
+          <img  class="design_button"  src="img/Rajasthan Royals logo.png"/>
+          
+           <ul class="list" >
+            <li>Rajasthan Royals  </li>
+            <li>Owner -The Royals Sports Group</li>
+            <li>Coach - Kumar Sangakkara</li>
+           </ul>
+          <img class="design_button" style="margin-left: 80px; " src="img/Sanju Samson.png"/>  
+          <p>Captain:<b> Sanju Samson </b> </p>
+          <a style="text-decoration: none;"href="https://www.rajasthanroyals.com/"><p>Official website </p></a>
+          
+        </div>
+
+        <div class="design">
+          
+          <img  class="design_button"  src="img/Sunrisers Hyderabad logo.png"/>
+          
+           <ul class="list" >
+            <li>Sunrisers Hyderabad  </li>
+            <li>Owner -SUN TV Network</li>
+            <li>Coach - Daniel Vettori</li>
+           </ul>
+          <img class="design_button" style="margin-left: 150px; " src="img/Abdul Samad.png"/>  
+          <p>Captain:<b> Aiden Markram </b> </p>
+          <a style="text-decoration: none;"href="https://www.sunrisershyderabad.in/"><p>Official website </p></a>
+          
+        </div>
+
+        <div class="design">
+          
+          <img  class="design_button"  src="img/Lucknow Super Giants logo.png"/>
+          
+           <ul class="list" >
+            <li>Lucknow Super Giants  </li>
+            <li>Owner -RPSG Group</li>
+            <li>Coach - Andy Flower</li>
+           </ul>
+          <img class="design_button" style="margin-left: 150px; " src="img/KL Rahul.png"/>  
+          <p>Captain:<b> Aiden Markram </b> </p>
+          <a style="text-decoration: none;"href="https://www.lucknowsupergiants.in/"><p>Official website </p></a>
+          
+        </div>
+
+        <div class="design">
+          
+          <img  class="design_button"  src="img/Royal Challengers Bangalore logo.png"/>
+          
+           <ul class="list" >
+            <li>Royal Challengers Bangalore </li>
+            <li>Owner -Royal Challengers Sports Private Ltd</li>
+            <li>Coach -Faf du Plessis</li>
+           </ul>
+          <img class="design_button" src="img/Faf du Plessis.png"/>  
+          <p>Captain:<b> Aiden Markram </b> </p>
+          <a style="text-decoration: none;"href="https://www.royalchallengers.com/"><p>Official website </p></a>
+          
+        </div>
+
+
+
+        <div class="design">
+          
+          <img  class="design_button"  src="img/Gujarat Titans logo.png"/>
+          
+           <ul class="list" >
+            <li>Gujarat Titans </li>
+            <li>Owner -CVC Capital Partners</li>
+            <li>Coach -Ashish Nehra</li>
+           </ul>
+          <img class="design_button" style="margin-left: 80px; " src="img/Shubman Gill.png"/>  
+          <p>Captain:<b>Shubman Gill </b> </p>
+          <a style="text-decoration: none;"href="https://www.gujarattitansipl.com/"><p>Official website </p></a>
+          
+        </div>
+</div>
+
+
+</div>
+<div>
+    <div id="first-main">
+      
+      <div id="container_teams"><span style="font-weight: bold; font-size: 48px;">IPL</span>The IPL is a competitive league, with teams competing for trophies and rankings. Each team has a roster of players that it can call upon during the tournament. The IPL is also known for its spectacular matches and high-quality entertainment. The IPL offers a variety of different spectator experiences, from live matches at stadiums to live streaming services that allow fans to watch games anywhere in the world.
+  
+    </div>
+  </div>
+
+    <footer>
+      <div class="footer-content">
+        <ul>
+            <li><h3>Teams</h3></li>
+            <li><a href="#">Mumbai Indians</a></li>
+            <li><a href="#">Chennai Super Kings</a></li>
+            <li><a href="#">Royal Challengers Bangalore</a></li>
+            <li><a href="#">Kolkata Knight Riders</a></li>
+            <li><a href="#">+ Many More</a></li>
+        </ul>
+        <ul>
+            <li><h3>About</h3></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Anti Corruption Policy</a></li>
+            <li><a href="#">Anti Doping Policy</a></li>
+            <li><a href="#">Code Of Conduct For Players And Teams Officials</a></li>
+        </ul>
+        <ul> 
+            <li><h3>Contact</h3></li>
+            <li>Contact</li>
+            <li>Sponsorship</li>
+            <li>Privacy Policy</li>
+        </ul>
+      </div>
+      <div id="owner">
+        <p>&copy; Siva Ganesh</p>
+      </div>
+  </footer>
+    <script src="./index.js"></script>
+  </body>
+</html>
